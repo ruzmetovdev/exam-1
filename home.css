@@ -1,0 +1,64 @@
+nav {
+	padding: 0px 0;
+}
+
+.navbar-shrink {
+	padding: 20px 0;
+}
+
+header {
+  position:sticky;
+  top:0px;
+  z-index: 1;
+  transition: 0.5s;
+  background: var(--navbar-color);
+  width: 100%;
+  padding: 28px 0;
+}
+
+.ol ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.oliy {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--kul-color);
+}
+
+.chap h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--blak-color);
+}
+
+.hamb {
+  display: none;
+}
+
+
+
+/* mwdia */
+@media (max-width: 880px) {
+  .ol {
+    display: none;
+  }
+  .hamb {
+    display: block;
+  }
+}
